@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 8024813413903294490a35eb9367fe73
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - summerdaySkybox: {instanceID: 0}
+  - summerdayCubemap: {fileID: 8900000, guid: 3b81c382a18452648ae7aeb161fb0636, type: 2}
+  - stormIsComingSkybox: {instanceID: 0}
+  - stormIsComingCubemap: {fileID: 8900000, guid: 3b81c382a18452648ae7aeb161fb0636,
+      type: 2}
+  - sunsetSemiCloudySkybox: {instanceID: 0}
+  - sunsetSemiCloudyCubemap: {fileID: 8900000, guid: 3b81c382a18452648ae7aeb161fb0636,
+      type: 2}
+  - rainyDayLondonSkybox: {instanceID: 0}
+  - rainyDayLondonCubemap: {instanceID: 0}
+  - semicloudy_afternoonSkybox: {instanceID: 0}
+  - semicloudy_afternoonCubemap: {instanceID: 0}
+  - rainyDayMiddlesbroughSkybox: {instanceID: 0}
+  - rainyDayMiddlesbroughCubemap: {instanceID: 0}
+  - semiCloudySunsetSkybox: {instanceID: 0}
+  - semiCloudySunsetCubemap: {instanceID: 0}
+  - moonShineSkybox: {instanceID: 0}
+  - moonShineCubemap: {instanceID: 0}
+  - clearSkySkybox: {instanceID: 0}
+  - clearSkyCubemap: {instanceID: 0}
+  - sunriseStarrySkySkybox: {instanceID: 0}
+  - sunriseStarrySkyCubemap: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

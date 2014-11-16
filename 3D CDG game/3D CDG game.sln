@@ -7,6 +7,8 @@ Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-CSh
 EndProject
 Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-UnityScript-firstpass.unityproj", "{422A99DA-064B-206D-62A9-7647DC876D0A}"
 EndProject
+Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-UnityScript.unityproj", "{2554B2BE-A153-FAE0-C13F-DCF22456EC22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2554B2BE-A153-FAE0-C13F-DCF22456EC22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2554B2BE-A153-FAE0-C13F-DCF22456EC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2554B2BE-A153-FAE0-C13F-DCF22456EC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2554B2BE-A153-FAE0-C13F-DCF22456EC22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-													GlobalSection(MonoDevelopProperties) = preSolution
+																			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
