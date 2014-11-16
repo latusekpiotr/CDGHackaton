@@ -16,7 +16,6 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
 		float sla = 0;
 		if (ticketsOnTime + ticketsMissed > 0)
 		{

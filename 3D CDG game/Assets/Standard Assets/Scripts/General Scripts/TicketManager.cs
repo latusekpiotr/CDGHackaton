@@ -2,26 +2,46 @@
 
 public class TicketManager : MonoBehaviour
 {
-    public GameObject ticket;                // The enemy prefab to be spawned.
-    public float spawnTime = 3f;            // How long between each spawn.
-    public Transform[] spawnPoints;         // An array of the spawn points this enemy can spawn from.
+    public GameObject ticket;
+    public float initialSpawnTime = 10f;
+    public float finalSpawnTime = 3f;
+    public float spawnTimeDecreaseInterval = 30f;
+    public Transform[] spawnPoints;
 
-	private Score score;				// Reference to the Score script.
+	private Score score;
+	private float spawnTime;
 	
     void Awake()
     {
-        // Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
-        InvokeRepeating("Spawn", spawnTime, spawnTime);
+		SetNewSpawnTime(initialSpawnTime);
+		InvokeRepeating("DecreaseSpawnTime", spawnTimeDecreaseInterval, spawnTimeDecreaseInterval);
 		score = GameObject.Find("Score").GetComponent<Score>();
     }
 
     void Spawn()
     {
-        // Find a random index between zero and one less than the number of spawn points.
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
 
-        // Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
         Instantiate(ticket, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 		score.ticketsInQueue += 1;
     }
+
+	void DecreaseSpawnTime()
+	{
+		if (spawnTime > finalSpawnTime)
+		{
+			SetNewSpawnTime(--spawnTime);
+		}
+		else
+		{
+			CancelInvoke("DecreaseSpawnTime");
+		}
+	}
+
+	void SetNewSpawnTime(float newSpawnTime)
+	{
+		CancelInvoke("Spawn");
+		spawnTime = newSpawnTime;
+		InvokeRepeating("Spawn", spawnTime, spawnTime);
+	}
 }
