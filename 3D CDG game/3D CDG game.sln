@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-CSharp-firstpass.csproj", "{E7C381D4-2DEB-14D7-599A-5AAED6CFDDDE}"
 EndProject
+Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-CSharp.csproj", "{95A6F259-3B91-4239-0C28-097553050B63}"
+EndProject
 Project("{9970AA20-9979-F858-D796-488C0B6AD295}") = "3D CDG game", "Assembly-UnityScript-firstpass.unityproj", "{422A99DA-064B-206D-62A9-7647DC876D0A}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{E7C381D4-2DEB-14D7-599A-5AAED6CFDDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7C381D4-2DEB-14D7-599A-5AAED6CFDDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7C381D4-2DEB-14D7-599A-5AAED6CFDDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A6F259-3B91-4239-0C28-097553050B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A6F259-3B91-4239-0C28-097553050B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A6F259-3B91-4239-0C28-097553050B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A6F259-3B91-4239-0C28-097553050B63}.Release|Any CPU.Build.0 = Release|Any CPU
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422A99DA-064B-206D-62A9-7647DC876D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
